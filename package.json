@@ -1,0 +1,21 @@
+{
+    "name": "proyecto-cloud-talent",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@google-cloud/storage": "^5.7.0",
+        "@google-cloud/talent": "^3.0.2",
+        "express": "^4.17.1",
+        "pg": "^8.5.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
